@@ -5,7 +5,7 @@ To use this:
 - Nomad CLI is installed (e.g. `brew install nomad`)
 - Consul CLI is installed (e.g. `brew install consul`)
 
-> Does not currently work on Apple Silicon
+> Does not currently work on Apple Silicon according to this [Open Issue](https://github.com/docker/for-mac/issues/7140)
 
 ## Running
 Run
