@@ -8,6 +8,12 @@ server {
 }
 client {
     enabled = true
+
+    host_volume "shared" {
+        path      = "<YOUR_PATH>"
+        read_only = false
+    }
+
     options = {
         "driver.raw_exec.enable" = "1"
         "docker.privileged.enabled" = "true"
