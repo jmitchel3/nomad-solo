@@ -10,7 +10,7 @@ client {
     enabled = true
 
     host_volume "shared" {
-        path      = "<YOUR_PATH>"
+        path      = "/Users/cfe/Dev/nomad-webinar/nomad-solo/shared"
         read_only = false
     }
 
